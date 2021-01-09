@@ -28,7 +28,7 @@ try = do
     writeFile fileC ("xd")
     putStrLn $ "Matriz A en Lista: " ++ show (a)
     putStrLn $ "Matriz B en Lista: " ++ show (b)
-    putStr $ "Matriz C en Lista: " ++ show(c)
+    putStrLn $ "Matriz C en Lista: " ++ show(c)
 
     hClose handler1
     hClose handler2
