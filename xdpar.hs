@@ -26,8 +26,6 @@ try = do
         c = matMulBlock (parseInt by) (parseInt bx) a b `using` (strategia rseq)
 
     writeFile fileC ("xd")
-    putStrLn $ "Matriz A en Lista: " ++ show (a)
-    putStrLn $ "Matriz B en Lista: " ++ show (b)
     putStrLn $ "Matriz C en Lista: " ++ show(c)
 
     hClose handler1
